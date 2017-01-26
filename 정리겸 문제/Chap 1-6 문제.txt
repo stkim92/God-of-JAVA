@@ -1,0 +1,32 @@
+1. 임도현이라는 클래스에 객체를 생성
+2. 상태와 메소드를 정의하고
+3. 메인함수에 메소드를 실행해보세요
+4. 자바의 자료형에 대해 설명해보세요
+
+5. public void switchStatement1(int month){
+		switch(month){
+			case 1:
+			case 3:
+			case 5:
+			case 7:
+			case 8:
+			case 10:
+			case 12:
+			System.out.println(month+" has 31 days");
+			break;
+			case 4:
+			case 6:
+			case 9:
+			case 11:
+			System.out.println(month+" has 30 days");
+			break;
+			case 2:
+			System.out.println(month+" has 28 days");
+			break;
+			default:
+			System.out.println(month+" is not a month");
+			break;
+		}
+	}
+
+다음과 같은 스위치문이 있을때, switchStatement1을 호출하여 while문으로 전체 반복시키는 메소드를 만들어보세요.
